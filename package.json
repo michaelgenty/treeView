@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "allo": "node filesystem-server.js -d D:/Projects"
+    "explore": " cd node_modules/@syncfusion/ej2-filemanager-node-filesystem && node filesystem-server.js -d ",
+    "db:restore:test": "npm run db:restore -- --config=test --database test"
   },
   "private": true,
   "dependencies": {
